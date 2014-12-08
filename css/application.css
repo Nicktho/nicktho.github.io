@@ -5404,9 +5404,9 @@ nav {
       font-style: italic; }
 
 section {
-  height: 10px;
   width: 100%; }
   section.one {
+    overflow: auto;
     padding-top: 5em;
     background: white; }
     section.one .feats-computer {
@@ -5434,6 +5434,37 @@ section {
       margin-top: 0.5em; }
     section.one .project {
       padding-bottom: 5em; }
+  section.two {
+    height: 300px;
+    background: url("../images/bg3.jpg");
+    background-position: bottom;
+    color: white; }
+    section.two h3 {
+      font-style: italic;
+      border: 2px solid white;
+      display: inline-block;
+      margin: auto;
+      padding: 0.5em 1em;
+      text-align: center; }
 
 .whiteNav {
   background: white; }
+
+.my-projects {
+  margin-bottom: 3em; }
+  .my-projects img {
+    text-align: center;
+    display: block;
+    margin: auto; }
+  .my-projects h2 {
+    display: inline-block; }
+
+.lets-connect {
+  padding-top: 5em; }
+
+.social-icons {
+  padding-top: 2.5em; }
+  .social-icons i {
+    margin: 10px; }
+  .social-icons a {
+    color: white; }
